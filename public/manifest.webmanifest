@@ -1,0 +1,65 @@
+{
+  "id": "/?source=pwa",
+  "name": "श्री साई कॉम्प्युटर - Office Management",
+  "short_name": "Shree Sai",
+  "description": "ग्राहक व्यवस्थापन, दाखले अर्ज आणि रोजचा जमा-खर्च व्यवस्थापन वेब ॲप (PWA)",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "mr",
+  "dir": "ltr",
+  "categories": [
+    "business",
+    "finance",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "नवीन दाखला अर्ज (New Application)",
+      "short_name": "नवीन अर्ज",
+      "url": "/applications/new",
+      "description": "नवीन दाखला अर्ज भरा"
+    },
+    {
+      "name": "नवीन ग्राहक (New Customer)",
+      "short_name": "नवीन ग्राहक",
+      "url": "/customers/new",
+      "description": "नवीन ग्राहक नोंदवा"
+    },
+    {
+      "name": "जमा-खर्च नोंदवही (Transactions)",
+      "short_name": "जमा-खर्च",
+      "url": "/transactions",
+      "description": "रोजचा जमा-खर्च नोंदवा"
+    },
+    {
+      "name": "मुख्य पान (Dashboard)",
+      "short_name": "मुख्य पान",
+      "url": "/",
+      "description": "डॅशबोर्ड आणि आकडेवारी"
+    }
+  ],
+  "prefer_related_applications": false
+}
